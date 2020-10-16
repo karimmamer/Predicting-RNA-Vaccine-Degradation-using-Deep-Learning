@@ -38,3 +38,4 @@ This step trains a single model with 5-fold validation and creates a submission 
 ### Ensemble
 
 To create an ensemble, you need to generate structures from different packages using differnet temperatures, train different architecures with them and finally average the resulted submissions.
+
