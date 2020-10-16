@@ -25,7 +25,7 @@ Arnie and bpRNA folders should be in the same directory as the source code.
 python3 generate_extra_dataset.py --data_path ... --package ... --temp ... --n_threads ...
 ```
 
-This step generates number of secondary structures per sequence (default is 5) using a package from Arnie to be used for augmentation. You need to choose a package, a temperature at which bpp matrix is generated and the number of threads to work use in parallel.
+This step generates a number of secondary structures per sequence (default is 5) using a package from Arnie to be used for augmentation. You need to choose a package, a temperature at which bpp matrices are generated and the number of threads to use in parallel.
 
 ### Single Model Training
 
